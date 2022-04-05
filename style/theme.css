@@ -1,0 +1,28 @@
+.light-theme-site {
+    color: black;
+    background-color: white;
+}
+
+
+.light-theme-site .theme-button {
+    color: black;
+    background-color:white;
+    border: 1px solid black;
+    
+  }
+  
+  .light-theme-site .theme-button::before {
+    background-image:url("icons/moon_to_night.svg");
+  }
+  
+  .light-theme-site .theme-button:focus,
+  .light-theme-site .theme-button:hover {
+    color: #ffffff;
+    background-color:#303946;
+  }
+
+
+.dark-theme-site {
+    color: white;
+    background-color: black;
+}
