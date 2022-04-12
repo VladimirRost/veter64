@@ -9,6 +9,11 @@ let page = document.querySelector('.page');
 let themeButton = document.querySelector('.theme-button');
 
 themeButton.onclick = function() {
-  page.classList.toggle('light-theme-site');
   page.classList.toggle('dark-theme-site');
+  page.classList.toggle('light-theme-site');
+};
+
+let test = document.querySelector(".button-classic-test");
+test.onclick=function () {
+  alert("Нажали на кнопочку");
 };

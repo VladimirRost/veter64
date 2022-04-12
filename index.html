@@ -11,24 +11,20 @@
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/theme.css">
+   
 
 
 
 </head>
 
-<body class="page light-theme-site">
-    <header >
-        <div>
-            <button class="theme-button" type="button">Изменить тему</button>
-        </div>
-
-        <!--                                       Заголовок                             -->
+<body class="page dark-theme-site">
+    <header class="header">
+        <!--                                       Верхушка сайта                             -->
         <a href="index.html">
             <img src="images/Logo.png" width="200" height="64" alt="Logotype of Company">
-            
         </a>
-        <nav>
-            <ul">
+        <nav class="main-navigation">
+            <ul class="not-bulit">
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="news.html">Новости</a></li>
                 <li><a href="catalog.html">Каталог</a></li>
@@ -36,24 +32,35 @@
                 <li><a href="calc.html">Расчёт вознаграждения</a></li>
                 <li><a href="use.html">Наши проекты</a></li>
                 <li><a href="contact.html">Контакты сотрудников</a></li>
+
+              
             </ul>
-
         </nav>
-
-        <ul>
-
-            <li>
-                <button type="button"> Войти</button>
-            </li>
+        <ul class="not-bulit padding-r">
+            <li><button class="button-classic" type="button"> Войти</button></li>
+            <!--<li><button class="theme-button" type="button">Изменить тему</button></li>   -->
+                
+            
         </ul>
-
 
     </header>
     <main>
-<p>Проверка шрифта</p>
+
+
+
+      
+
+        <button class="button-classic button-classic-test" type="button">Проверка кнопки</button>
+
+       
+
     </main>
     <footer>
 
     </footer>
     <script src="js/script.js"></script>
 </body>
+
+
+
+<!--    Разобраться с центрированием Flexов-->
