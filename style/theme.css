@@ -1,16 +1,16 @@
 .light-theme-site {
     color: black;
-    background-color: white;
+    background-color:#D5D5D5;
 }
 
 .light-theme-site a {
   color:#293241;
-  background-color:white;
+  background-color:#D5D5D5;
 }
 
  .theme-button {
     color: black;
-    background-color:white;
+    background-color:#D5D5D5;
     border: 1px solid black;
   }
   /*
@@ -31,11 +31,11 @@
 
 
   .dark-theme-site {
-    color: white;
+    color: #D5D5D5;
     background-color: #293241;
 }
 .dark-theme-site a{
-  color:white;
+  color:#D5D5D5;
 }
 
 .button-classic {

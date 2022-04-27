@@ -30,7 +30,7 @@
 
 /*Главное меню  на тёмном фоне*/
 .main-navigation {
-    font-size: 16px;
+    font-size: 14px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -77,10 +77,60 @@ body {
 /*Убирам подчёркивания в ссылка*/
 a {
     text-decoration: none;
-
 }
 
 /* Восстанавливаем подчёркивания локально*/
 .decor_text {
     text-decoration-line: underline;
+}
+/*Текст по центру*/
+.text-center{
+    text-align: center;
+}
+
+
+/*Горизонтальный блок на весь экран*/
+.main-block {
+    display: flex;
+    text-align: center;
+    margin: 0px;
+    padding: 1px;
+    border: 1px solid white;
+}
+
+/*Создаём слева  блок*/
+.left-box {
+    margin: 1;
+    padding: 1;
+    width: 25%;
+    border: 1px solid green;
+    text-align:left;
+}
+
+/*Создаём основной по центру блок*/
+.center-box {
+    width: 60%;
+    margin: 1;
+    padding: 1;
+    border: 1px solid tomato;
+}
+
+/*Создаём блок с права*/
+.right-box {
+    width: 15%;
+    margin: 1;
+    padding: 1;
+    border: 1px solid blue;
+    text-align: right;
+}
+
+/*блок по центру*/
+.center-gallery{
+    display: flex;
+    justify-content:center;
+}
+
+/*бордюр для фоток*/
+.border-gallery div{
+    border: 1px solid #303946;
 }
