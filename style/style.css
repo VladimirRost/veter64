@@ -1,12 +1,15 @@
 .header {
     display: flex;
     justify-content: space-between;
+
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid white;
 
+  
 }
+
+
 
 .to-flex {
     display: flex;
@@ -18,6 +21,7 @@
 
 .not-bulit {
     list-style: none;
+    
 }
 
 .padding-r li {
@@ -28,39 +32,7 @@
     justify-content: space-around;
 }
 
-/*Главное меню  на тёмном фоне*/
-.main-navigation {
-    font-size: 14px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    /*border: 1px solid black;*/
-}
 
-/*Горизонтальное меню Li список*/
-.main-navigation li {
-    float: left;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: 1px solid transparent;
-}
-
-/* действия при наведении курсора*/
-.main-navigation li:hover,
-.main-navigation li:focus {
-    border-radius: 10px;
-    border: 1px solid white;
-    background-image: linear-gradient(to right, #FFD100 0%, #ED7D31 100%);
-}
-
-.main-navigation a:hover,
-.main-navigation a:focus {
-    color: black;
-    transition: 0.5s;
-}
 
 body {
     margin: 0;
@@ -87,6 +59,10 @@ a {
 .text-center{
     text-align: center;
 }
+/*Текст слева*/
+.text-left{
+    text-align: left;
+}
 
 
 /*Горизонтальный блок на весь экран*/
@@ -95,7 +71,7 @@ a {
     text-align: center;
     margin: 0px;
     padding: 1px;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
 }
 
 /*Создаём слева  блок*/
@@ -103,16 +79,15 @@ a {
     margin: 1;
     padding: 1;
     width: 25%;
-    border: 1px solid green;
     text-align:left;
 }
 
 /*Создаём основной по центру блок*/
 .center-box {
-    width: 60%;
+    width: 75%;
     margin: 1;
     padding: 1;
-    border: 1px solid tomato;
+   
 }
 
 /*Создаём блок с права*/
@@ -120,7 +95,7 @@ a {
     width: 15%;
     margin: 1;
     padding: 1;
-    border: 1px solid blue;
+    
     text-align: right;
 }
 
@@ -130,7 +105,3 @@ a {
     justify-content:center;
 }
 
-/*бордюр для фоток*/
-.border-gallery div{
-    border: 1px solid #303946;
-}

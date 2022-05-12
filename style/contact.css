@@ -1,0 +1,23 @@
+.main_flex{
+    display: flex;
+    justify-content:space-around; 
+}
+
+.main_contact{
+    display: block;
+    padding: 5px;
+
+   
+
+    
+}
+.main_contact_link{
+    display: block;
+    border: 1px solid tomato;
+}
+.no_padding{
+    padding: 0px;
+    margin: 0px;
+}
+
+

@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/slider/slider.css">
+    <link rel="stylesheet" href="style/ugolok_hover.css">
     <link rel="stylesheet" href="style/theme.css">
+    <link rel="stylesheet" href="style/menu_catalog.css">
 
 
 
@@ -22,19 +24,17 @@
     <header class="header">
         <!--                                       Верхушка сайта                             -->
         <a href="index.html">
-            <img src="images/Logo.png" width="200" height="64" alt="Logotype of Company">
+            <img src="images/Logo.png" width="160" height="52" alt="Logotype of Company">
         </a>
         <nav class="main-navigation">
             <ul class="not-bulit">
-                <li><a href="index.html">Главная</a></li>
+                <li class="menu_active_button"><a href="index.html">Главная</a></li>
                 <li><a href="news.html">Новости</a></li>
                 <li><a href="catalog.html">Каталог</a></li>
                 <li><a href="crm.html">CRM</a></li>
-                <li><a href="calc.html">Расчёт вознаграждения</a></li>
+                <li><a href="calc.html">Плюшки</a></li>
                 <li><a href="use.html">Наши проекты</a></li>
-                <li><a href="contact.html">Контакты сотрудников</a></li>
-
-
+                <li><a href="contact.html">Контакты</a></li>
             </ul>
         </nav>
         <ul class="not-bulit padding-r">
@@ -49,7 +49,7 @@
         <div class="main-block center-gallery">
 
             <div class="carousel-3d " data-gap="30">
-                <figure class="border-gallery">
+                <figure>
                     <div><a href="#any"><img src="images/slider/vdm.jpg" alt="" /></a></div>
                     <div><a href="#any"><img src="images/slider/TorgoviyCentr.jpg" alt="" /></a></div>
                     <div><a href="#any"><img src="images/slider/ORC_Saratov.jpg" alt="" /></a></div>
@@ -76,20 +76,56 @@
 
         <div class="main-block">
 
-            <div class="left-box">
-                <h1>Блок с лева</h1>
+            <div class="corner-box-1 left-box">   <!--Каталог-->
+                <div class="corner-textbox-1">
+                    <h2>Каталог</h2>
+                    <nav class="catalog-menu">
+                        <ul class="not-bulit">
+                            <li><a href="#">Умный свет</a></li>
+                            <li><a href="#">Промышленное</a></li>
+                            <li><a href="#">Складское</a></li>
+                            <li><a href="#">Уличное</a></li>
+                            <li><a href="#">Офисное</a></li>
+                            <li><a href="#">Торговое</a></li>
+                            <li><a href="#">Архитектурное</a></li>
+                            <li><a href="#">Низковольтное</a></li>
+                            <li><a href="#">Взрывозащищённое</a></li>
+                        </ul>
+                    </nav>
+                   
+
+                </div>
+            </div>                                  <!--Каталог-->
+            <!--                                                          ОСНОВНОЕ ПОЛЕ                         -->
+            <div class="corner-box-1 center-box ">
+                <div class="corner-textbox-1">
+<!------------------------------------------------------------------------------------------------------------------->
+                    <section>
+                        <h2>Общество с ограниченной ответственности РОСТЪ</h2>
+                        <p class="text-center"> ООО "Ростъ" являясь официальным представителем завода изготовителя ТД
+                            "ФЕРЕКС", работает по отпускным ценам завода. Доставка продукции, а также гарантийное
+                            обслуживание осуществляется за наш счет. В нашем распоряжении дополнительная гибкая система
+                            скидок. Гарантийный срок эксплуатации продукции 5 лет. Средний срок службы светодиодных
+                            светильников составляет 100 000 часов, или 5,7 лет постоянной работы.</p>
+                        </p>
+                    </section>
+<!------------------------------------------------------------------------------------------------------------------->
+                </div>
             </div>
-            <div class="center-box">
-                <h1>Блок по середине</h1>
-            </div>
-            <div class="right-box">
-                <h1>Блок справа</h1>
-            </div>
+            <!--                                                          ОСНОВНОЕ ПОЛЕ                         -->
+            <!--<div class="corner-box-1 right-box ">
+                <div class="corner-textbox-1">
+                    <h2>Новости</h2>
+                </div>
+            </div> -->
         </div>
 
 
         <button class="button-classic button-classic-test" type="button">Проверка кнопки</button>
         <!--        <button class="theme-button" type="button">Изменить тему</button>-->
+
+        <br>
+
 
 
         <h1>Проверочка</h1>
@@ -111,4 +147,4 @@
 
 
 
-<!--    Разобраться с центрированием Flexов-->
+<!--    Разобраться с центрированием Flexов               остановился на 2:00  новый курс   -->
