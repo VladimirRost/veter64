@@ -108,3 +108,12 @@ a {
     justify-content:center;
 }
 
+footer{
+    display: flex;
+    /*border:1px solid tomato;*/
+    justify-content:space-between;
+    padding: 10px;
+    background-color:/*#293241;*/ #414B57;
+   
+}
+
