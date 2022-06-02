@@ -158,9 +158,9 @@
             </ul>
         </nav>
         <div style="display: flex; justify-content: center;">
-            <img class="open_image"  src="images/GguaranteeQualiry.png"      alt="Logotype of Company">
+            <img class="open_image" src="images/GguaranteeQualiry.png" alt="Logotype of Company">
         </div>
-        <div >
+        <div>
             <!--Контакты-->
             <p>
                 410054 г. Саратов <br>
@@ -170,23 +170,61 @@
             </p>
         </div>
     </footer>
-<!--                                  Тест модального окна                          -->
-    <div class="css-modal-details">    
+
+    <!--                                                   Окно Логина и Пароля Начало-->
+    <section class="modal modal-login">
+        <h2>Личный кабинет</h2>
+        <p> Введите пожалйста свой логин и пароль </p> <!-- класс неопределён-->
+        <form  action="https://echo.htmlacademy.ru" method="post">
+            <!-- класс неопределён-->
+            <p>
+                <label class="visually-hidden" for="user-login">Логин</label> <!-- класс неопределён-->
+                <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="email@example.com">
+            </p>
+            <p>
+                <label class="visually-hidden" for="user-password">Пароль</label> <!-- класс неопределён-->
+                <input class="login-icon-password" id="user-password" type="password" name="password"
+                    placeholder="********">
+            </p>
+            <p class="login-help">
+                <label class="login-checkbox">
+                    <input type="checkbox" name="remember" class="visually-hidden">
+                    <span class="checkbox-indicator"></span>
+                    Запомните меня
+                </label>
+                <a class="restore" href="#">Я забыл пароль</a>
+            </p>
+            <button class="button button-classic"  type="submit">Войти</button>
+
+        </formclass=>
+
+        <button class="modal-close" type="button"></button>
+    </section>
+    <!--                                                   Окно Логина и Пароля Конец-->
+
+
+    <!--                                  Тест модального окна                          -->
+    <div class="css-modal-details">
         <details>
             <summary>Название кнопки</summary>
             <div class="cmc">
                 <div class="cmt">
-                    <p>Текст в модальном окне С картинкой</p>        
+                    <p>Текст в модальном окне С картинкой</p>
                 </div>
             </div>
         </details>
     </div>
-<!--                                  Тест модального окна                          -->
+    <!--                                  Тест модального окна   окончание                       -->
+
+
+
+
+
     <script src="js/script.js"></script>
     <script src="js/slider/slider.js"></script>
 </body>
 
 
 
-<!--    00:00   Оформление контента -->
-<!--Занимаюсь футтером-->
+<!--    00:29:33   Оформление контента              Окно пароля и СВГ              -->
+<!--Занимаюсь футтером  И всплывающими окнами-->
