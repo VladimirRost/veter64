@@ -158,7 +158,8 @@
             </ul>
         </nav>
         <div style="display: flex; justify-content: center;">
-            <img class="open_image" src="images/GguaranteeQualiry.png" alt="Logotype of Company">
+            <img src="images/GguaranteeQualiry.png" alt="Logotype of Company">
+
         </div>
         <div>
             <!--Контакты-->
@@ -175,35 +176,47 @@
     <section class="modal modal-login">
         <h2>Личный кабинет</h2>
         <p> Введите пожалйста свой логин и пароль </p> <!-- класс неопределён-->
-        <form  action="https://echo.htmlacademy.ru" method="post">
+        <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
             <!-- класс неопределён-->
             <p>
-                <label class="visually-hidden" for="user-login">Логин</label> <!-- класс неопределён-->
+                <img src="images/user.svg">
+                <label class="visually-hidden" for="user-login">Логин</label>
+
                 <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="email@example.com">
+
             </p>
             <p>
+                <img src="images/lock.svg">
                 <label class="visually-hidden" for="user-password">Пароль</label> <!-- класс неопределён-->
                 <input class="login-icon-password" id="user-password" type="password" name="password"
                     placeholder="********">
+
+
             </p>
             <p class="login-help">
-                <label class="login-checkbox">
-                    <input type="checkbox" name="remember" class="visually-hidden">
-                    <span class="checkbox-indicator"></span>
-                    Запомните меня
+                <label>
+                    <input type="checkbox" name="remember"> Запомните меня
                 </label>
-                <a class="restore" href="#">Я забыл пароль</a>
+                <a href="#">Я забыл пароль</a>
             </p>
-            <button class="button button-classic"  type="submit">Войти</button>
-            <button class="button "  type="button">Закрыть</button>
+            <button class="button button-classic login-help" style="margin-left: 15px;" type="submit">Войти</button>
 
-        </formclass=>
+
+        </form>
 
         <button class="modal-close" type="button"></button>
     </section>
     <!--                                                   Окно Логина и Пароля Конец-->
 
-
+    <!--                                                   Окно Картинки Начало-->
+    <section class="modal modal-map">
+        <h2 class="visually-hidden"> Применение светодиодных светильников</h2>
+        <p><img src="images/slider/vdm.jpg" width="1000" height="469"></p>
+        <button class="modal-close" type="button">
+            <span class="visually-hidden">Закрыть</span>
+        </button>
+    </section>
+    <!--                                                   Окно Картинки Конец-->
     <!--                                  Тест модального окна   на весь экран                       -->
     <div class="css-modal-details">
         <details>
@@ -227,5 +240,5 @@
 
 
 
-<!--    00:29:33   Оформление контента              Окно пароля и СВГ              -->
+<!--    00:43:59   Оформление контента              Практика             -->
 <!--Занимаюсь футтером  И всплывающими окнами-->
