@@ -6,10 +6,11 @@
     margin-left: auto;
     margin-right: auto;
 
-  
+
 }
+
 /*Отступы слева и сверху для логотипа*/
-.image_logo{
+.image_logo {
     margin-left: 10px;
     margin-top: 10px;
 }
@@ -24,7 +25,7 @@
 
 .not-bulit {
     list-style: none;
-    
+
 }
 
 .padding-r li {
@@ -58,12 +59,14 @@ a {
 .decor_text {
     text-decoration-line: underline;
 }
+
 /*Текст по центру*/
-.text-center{
+.text-center {
     text-align: center;
 }
+
 /*Текст слева*/
-.text-left{
+.text-left {
     text-align: left;
 }
 
@@ -82,7 +85,7 @@ a {
     margin: 1;
     padding: 1;
     width: 25%;
-    text-align:left;
+    text-align: left;
 }
 
 /*Создаём основной по центру блок*/
@@ -90,7 +93,7 @@ a {
     width: 75%;
     margin: 1;
     padding: 1;
-   
+
 }
 
 /*Создаём блок с права*/
@@ -98,22 +101,57 @@ a {
     width: 15%;
     margin: 1;
     padding: 1;
-    
+
     text-align: right;
 }
 
 /*блок по центру*/
-.center-gallery{
+.center-gallery {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
-footer{
+footer {
     display: flex;
-    /*border:1px solid tomato;*/
-    justify-content:space-between;
-    padding: 10px;
-    background-color:/*#293241;*/ #414B57;
-   
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:
+        /*#293241;*/
+        #414B57;
+
 }
 
+footer ul {
+    padding-left: 0px;
+}
+
+footer nav {
+    width: 20%;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+footer section {
+    display: flex;
+    width: 20%;
+    justify-content: right;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    width: 193px;
+    height: 148px;
+}
+footer img{
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7)
+}
+footer a:hover{
+    color:#ED7D31;
+    text-decoration: underline;
+    transition: 0.5s;
+}
