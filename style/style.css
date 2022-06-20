@@ -155,3 +155,25 @@ footer a:hover{
     text-decoration: underline;
     transition: 0.5s;
 }
+
+.breadcrambs-container{
+    display: block;
+    border: 1px solid tomato;
+    padding: 0px;
+    margin: 0px;
+}
+.breadcrambs {
+    display: flex;
+    flex-direction:row;
+    color:#ED7D31;
+    border: 1px solid green;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    
+
+}
+.breadcrambs-current {
+color:darkgray;
+margin-left: 20px;
+
+}
