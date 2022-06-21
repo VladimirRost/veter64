@@ -158,22 +158,30 @@ footer a:hover{
 
 .breadcrambs-container{
     display: block;
-    border: 1px solid tomato;
-    padding: 0px;
-    margin: 0px;
+    padding: -10px;
+    margin: -10px;
 }
 .breadcrambs {
     display: flex;
     flex-direction:row;
-    color:#ED7D31;
-    border: 1px solid green;
-    margin-top: 1px;
-    margin-bottom: 1px;
+    font-size: smaller;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
     
 
 }
 .breadcrambs-current {
-color:darkgray;
-margin-left: 20px;
+color:rgb(114, 114, 114);
+margin-left: 25px;
 
+}
+.breadcrambs-tuta{
+
+    font-size: small;
+    color: white;
+    margin-right: 10px;
+    margin-left: -15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
