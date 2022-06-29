@@ -185,3 +185,26 @@ margin-left: 25px;
     padding-top: 0px;
     padding-bottom: 0px;
 }
+.corner-textbox-1 .big-heading{
+    display: flex;
+    /*outline: #ED7D31 solid 1px;*/
+    width: 100%;
+    text-transform: uppercase;
+    margin: 0px 0px;
+    align-items:center;
+}
+.big-heading::before,
+.big-heading::after{
+    content:"";
+    width: 50px;
+    height: 1px;
+    background:white;
+    flex-grow: 1; /*боковые палочки растите на всё свободное место*/
+    flex-shrink: 0;  /*боковые палочки не уменьшайтесь*/
+}
+.big-heading::before{
+    margin-right: 25px;  /*оступы от заголовка*/
+}
+.big-heading::after{
+    margin-left: 25px;   /*оступы от заголовка*/
+}
